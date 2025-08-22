@@ -1,0 +1,38 @@
+# CODEOWNERS file for monitoring-backend-917
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-product @Armor-test/squad-ux @Armor-test/team-frontend
+
+# Directory ownership
+/docs/ @Armor-test/dept-automation @Armor-test/unit-governance
+/services/ @Armor-test/team-logging @Armor-test/dept-billing @Armor-test/squad-ux
+/tests/ @Armor-test/dept-logging @Armor-test/squad-api @Armor-test/grp-storage
+/test/ @Armor-test/squad-apps @Armor-test/dept-ui
+/app/ @Armor-test/squad-mobile @Armor-test/unit-test @Armor-test/unit-cloud
+/dist/ @Armor-test/squad-search @Armor-test/unit-cloud @Armor-test/grp-ui
+/common/ @Armor-test/squad-ml @Armor-test/dept-reliability
+/examples/ @Armor-test/dept-automation @Armor-test/dept-ui @Armor-test/dept-logging
+/utils/ @Armor-test/dept-api @Armor-test/dept-identity
+/lib/ @Armor-test/team-core @Armor-test/dept-test @Armor-test/unit-cloud
+/security/ @Armor-test/dept-api @Armor-test/dept-billing
+/vendor/ @Armor-test/squad-mobile @Armor-test/grp-integration @Armor-test/squad-performance
+/shared/ @Armor-test/team-core @Armor-test/dept-release @Armor-test/squad-research
+
+# File type ownership
+*.ts @Armor-test/squad-cache @Armor-test/team-core
+*.xml @Armor-test/team-research @Armor-test/dept-reporting @Armor-test/unit-design
+*.gradle @Armor-test/grp-integration @Armor-test/squad-cloud @Armor-test/grp-search
+*.yml @Armor-test/squad-ml @Armor-test/squad-reporting
+*.css @Armor-test/team-governance @Armor-test/squad-cache @Armor-test/team-core
+*.graphql @Armor-test/squad-mobile @Armor-test/dept-automation
+*.sql @Armor-test/unit-governance @Armor-test/team-research
+*.py @Armor-test/team-notifications @Armor-test/dept-api
+*.swift @Armor-test/dept-reporting @Armor-test/squad-mobile @Armor-test/dept-automation
+*.java @Armor-test/team-research @Armor-test/squad-research @Armor-test/grp-reporting
+*.ini @Armor-test/grp-payments @Armor-test/dept-identity @Armor-test/dept-automation
+
+# Security and special files
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+package.json @Armor-test/dependency-team @Armor-test/security
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
